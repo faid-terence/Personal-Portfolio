@@ -17,25 +17,35 @@ const Qualifications = () => {
             className={
               toggleState === 1
                 ? "qualification__button qualification__active button--flex"
-                : "qualification__button qualification__active button--flex"
-            } onClick={()=> toggleTab(1)}
+                : "qualification__button button--flex"
+            }
+            onClick={() => toggleTab(1)}
           >
             <i className="uil uil-graduation-cap qualification__icon"></i>
             Education
           </div>
 
-          <div className={
+          <div
+            className={
               toggleState === 2
                 ? "qualification__button qualification__active button--flex"
                 : "qualification__button qualification__active button--flex"
-            } onClick={()=> toggleTab(2)}>
+            }
+            onClick={() => toggleTab(2)}
+          >
             <i className="uil uil-briefcase-alt qualification__icon"></i>
             Experience
           </div>
         </div>
 
         <div className="qualification__secctions">
-          <div className="qualification_content qualification__content-active">
+          <div
+            className={
+              toggleState === 1
+                ? "qualification__content qualification__content-active"
+                : "qualification__active"
+            }
+          >
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Computer Engineering</h3>
@@ -61,9 +71,7 @@ const Qualifications = () => {
               </div>
               <div>
                 <h3 className="qualification__title">Mobile App Developer</h3>
-                <span className="qualification__subtitle">
-                  Techly Africa
-                </span>
+                <span className="qualification__subtitle">Techly Africa</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2023 - Present
                 </div>
@@ -72,10 +80,10 @@ const Qualifications = () => {
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Math-Physics and Computer Science</h3>
-                <span className="qualification__subtitle">
-                  Lycee de Kigali
-                </span>
+                <h3 className="qualification__title">
+                  Math-Physics and Computer Science
+                </h3>
+                <span className="qualification__subtitle">Lycee de Kigali</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2018 - 2021
                 </div>
@@ -95,9 +103,7 @@ const Qualifications = () => {
               </div>
               <div>
                 <h3 className="qualification__title">Full Stack Developer</h3>
-                <span className="qualification__subtitle">
-                  Andela Rwanda
-                </span>
+                <span className="qualification__subtitle">Andela Rwanda</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2022 - Present
                 </div>
@@ -105,7 +111,7 @@ const Qualifications = () => {
             </div>
           </div>
 
-          <div className="qualification_content">
+          {/* <div className={toggleState === 2  ? "qualification__content qualification__content-active" : "qualification__active"}>
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Mobile App Developer</h3>
@@ -173,7 +179,7 @@ const Qualifications = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

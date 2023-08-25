@@ -24,7 +24,7 @@
     grid-template-columns: 0.5fr;
     justify-content: center;
 }
-.qualification_content{
+.qualification__content{
     display: none;
 }
 .qualification__content-active{
