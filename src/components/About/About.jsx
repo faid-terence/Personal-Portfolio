@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import "./about.css";
 import AboutImg from "../../assets/Terence.jpeg";
 import Info from "./Info";
