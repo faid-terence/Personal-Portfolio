@@ -1,19 +1,31 @@
 import "./Contact.css";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const Contact = () => {
   const form = useRef();
-
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      "service_igkkgln",
-      "template_ggt9f44",
-      form.current,
-      "TEhbHbIe5S7F3vknS"
-    );
-    e.target.reset();
+    try {
+      const response = await emailjs.sendForm(
+        "service_igkkgln",
+        "template_ggt9f44",
+        form.current,
+        "TEhbHbIe5S7F3vknS"
+      );
+
+      if (response.status === 200) {
+        toast.success("Email sent successfully!");
+        e.target.reset();
+      } else {
+        toast.error("Failed to send email. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error sending email:", error);
+      toast.error("An error occurred while sending the email.");
+    }
   };
   return (
     <section className="contact section" id="contact">
@@ -32,27 +44,40 @@ const Contact = () => {
                 faidterence@outlook.com
               </span>
 
-              <a href="" className="contact__button">
+              <a
+                href="mailto:faidterence@outlook.com"
+                className="contact__button"
+              >
                 Write me
                 <i className="bx bx-right-arrow-alt"></i>
               </a>
             </div>
+
             <div className="contact__card">
               <i className="bx bxl-whatsapp contact__card-icon"></i>
               <h3 className="contact__card-title">Whatsapp</h3>
               <span className="contact__card-data">(+2507-8863-4357)</span>
 
-              <a href="" className="contact__button">
+              <a
+                href="https://wa.me/250788634357"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact__button"
+              >
                 Write me
                 <i className="bx bx-right-arrow-alt"></i>
               </a>
             </div>
+
             <div className="contact__card">
               <i className="bx bxl-instagram contact__card-icon"></i>
               <h3 className="contact__card-title">Instagram</h3>
               <span className="contact__card-data">thestunna_420</span>
 
-              <a href="" className="contact__button">
+              <a
+                href="instagram.com/thestunna_420/"
+                className="contact__button"
+              >
                 Write me
                 <i className="bx bx-right-arrow-alt"></i>
               </a>
