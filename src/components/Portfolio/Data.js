@@ -1,4 +1,4 @@
-// import Work1 from "../../assets/Predators.png";
+import Work1 from "../../assets/predators.png";
 import Work2 from "../../assets/my_e_ecomm.png";
 // import Work3 from "../../assets/faid-flix.png";
 import Work4 from "../../assets/Doctor-book.png";
@@ -10,9 +10,9 @@ export const projectsData = [
   {
     id: 1,
     image: Work8,
-    title: "E-Commerce Web UI/UX Design",
+    title: "Terence Smoothies(Auth)",
     category: "design",
-    link:  'https://www.figma.com/file/uIqHkoLiY4wwAFojUDocwF/Ecommerce_predators?type=design&node-id=0-1&mode=design&t=irFwLCRcoqxehF5G-0'
+    link:  'https://copper-armadillo-kilt.cyclic.app/'
   },
   {
     id: 2,
@@ -50,6 +50,13 @@ export const projectsData = [
     category: "web",
     link:"https://faid-terence.github.io/Andela-Capstone-Project-Frontend/"
   },
+  {
+    id: 7,
+    image: Work1,
+    title: "E-commerce Web Design (UI/UX)",
+    category: "design",
+    link : "https://www.figma.com/file/uIqHkoLiY4wwAFojUDocwF/Ecommerce_predators?type=design&node-id=0-1&mode=design&t=irFwLCRcoqxehF5G-0  "
+  }
 ];
 
 export const projectsNav = [
