@@ -1,14 +1,15 @@
-import Work1 from "../../assets/Predators.png";
+// import Work1 from "../../assets/Predators.png";
 import Work2 from "../../assets/my_e_ecomm.png";
-import Work3 from "../../assets/faid-flix.png";
+// import Work3 from "../../assets/faid-flix.png";
 import Work4 from "../../assets/Doctor-book.png";
 import Work5 from "../../assets/codewithTerence.png";
 import Work6 from "../../assets/myweb.png";
 import Work7 from '../../assets/flix2.png'
-export const projectsData = [
+import Work8 from '../../assets/smoothies.png'
+export const projectsData = [ 
   {
     id: 1,
-    image: Work1,
+    image: Work8,
     title: "E-Commerce Web UI/UX Design",
     category: "design",
     link:  'https://www.figma.com/file/uIqHkoLiY4wwAFojUDocwF/Ecommerce_predators?type=design&node-id=0-1&mode=design&t=irFwLCRcoqxehF5G-0'
