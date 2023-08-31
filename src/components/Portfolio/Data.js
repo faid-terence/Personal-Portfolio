@@ -33,7 +33,7 @@ export const projectsData = [
     image: Work4,
     title: "Medicare Doctor Booking",
     category: "web",
-    link: "https://stunna-flix-86l2.onrender.com/"
+    link: "https://bookwithfaid.netlify.app/"
   },
   {
     id: 5,
@@ -56,7 +56,7 @@ export const projectsData = [
     title: "E-commerce Web Design (UI/UX)",
     category: "design",
     link : "https://www.figma.com/file/uIqHkoLiY4wwAFojUDocwF/Ecommerce_predators?type=design&node-id=0-1&mode=design&t=irFwLCRcoqxehF5G-0  "
-  }
+  },
 ];
 
 export const projectsNav = [
