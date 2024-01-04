@@ -20,7 +20,7 @@ const About = () => {
             functionality and user experience. I love coding, designing, and
             constantly learning to stay ahead of tech trends.
           </p>
-          <a download="" href={CV} className="button button--flex download">
+          <a download="" href="" className="button button--flex download">
             Download CV
             <svg
               className="button__icon"
