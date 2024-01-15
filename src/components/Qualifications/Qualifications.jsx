@@ -53,7 +53,7 @@ const Qualifications = () => {
                   University of Rwanda
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2022 - Present
+                  <i className="uil uil-calendar-alt"></i> 2020 - 2023
                 </div>
               </div>
               <div>
@@ -85,7 +85,7 @@ const Qualifications = () => {
                 </h3>
                 <span className="qualification__subtitle">Lycee de Kigali</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2015 - 2021
+                  <i className="uil uil-calendar-alt"></i> 2015 - 2020
                 </div>
               </div>
               <div>
