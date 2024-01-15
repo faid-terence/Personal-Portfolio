@@ -50,6 +50,30 @@
   --z-modal: 1000;
 }
 
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination span {
+  cursor: pointer;
+  padding: 8px 12px;
+  margin: 0 4px;
+  background-color: #eee;
+  border-radius: 4px;
+  user-select: none;
+}
+
+.pagination span:hover {
+  background-color: #ddd;
+}
+
+.pagination span.active {
+  background-color: var(--title-color);
+  color: #fff;
+}
+
 /* Responsive typography */
 @media screen and (max-width: 992px) {
   :root {
