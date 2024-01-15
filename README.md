@@ -26,7 +26,7 @@ List and briefly describe the projects you have worked on. Include links to the 
 
 Outline your technical and soft skills. Showcase the technologies you are proficient in and any certifications or achievements related to your skill set.
 
-## Contact
+## Contact  
 
 Provide ways for visitors to get in touch with you. Include links to your professional social media profiles, email address, or a contact form.
 
