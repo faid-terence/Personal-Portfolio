@@ -6,21 +6,23 @@ import Work5 from "../../assets/codewithTerence.png";
 import Work6 from "../../assets/myweb.png";
 import Work7 from "../../assets/flix2.png";
 import Work8 from "../../assets/smoothies.png";
-import Work9 from "../../assets/drive-clone.png"
+import Work9 from "../../assets/drive-clone.png";
+import ticknet from "../../assets/ticknet2.png";
 export const projectsData = [
   {
     id: 1,
-    image: Work9,
-    title: "Google Drive Clone",
+    image: ticknet,
+    title: "Ticknet (Under Development)",
     category: "web",
-    link: "https://google-drive-clone-faid.vercel.app/",
+    link: "https://eve-ease.vercel.app/",
   },
+
   {
     id: 2,
-    image: Work7,
-    title: "Netflix Clone(Flix with Faid)",
+    image: Work9,
+    title: "DriveX (Google Drive clone)",
     category: "web",
-    link: "https://flixwithfaid.netlify.app/",
+    link: "https://google-drive-clone-faid.vercel.app/",
   },
   {
     id: 3,
@@ -64,6 +66,13 @@ export const projectsData = [
     title: "Terence Smoothies(Auth)",
     category: "design",
     link: "https://copper-armadillo-kilt.cyclic.app/",
+  },
+  {
+    id: 9,
+    image: Work7,
+    title: "Flix with Faid (Netflix Clone)",
+    category: "design",
+    link: "https://flixwithfaid.netlify.app/",
   },
 ];
 
