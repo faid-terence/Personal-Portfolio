@@ -82,10 +82,10 @@ const Qualifications = () => {
               <div>
                 <h3 className="qualification__title">Computer Science</h3>
                 <span className="qualification__subtitle">
-                  edx (Havard-Online)
+                  edX (CS50-Online)
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2020
+                  <i className="uil uil-calendar-alt"></i> AUG 2021 - DEC 2022
                 </div>
               </div>
               <div>
