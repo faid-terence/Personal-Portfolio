@@ -22,6 +22,7 @@ const About = () => {
             constantly learning to stay ahead of tech trends.
           </p>
           <a download="" href={Resume} className="button button--flex download">
+
             Download CV
             <svg
               className="button__icon"
