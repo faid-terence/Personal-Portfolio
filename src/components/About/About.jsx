@@ -3,6 +3,7 @@ import "./about.css";
 import AboutImg from "../../assets/Terence.jpeg";
 import Info from "./Info";
 import CV from "../../assets/Profile.pdf";
+import Resume from "../../assets/myCV.pdf";
 const About = () => {
   return (
     <section className="about section" id="about">
@@ -20,7 +21,8 @@ const About = () => {
             functionality and user experience. I love coding, designing, and
             constantly learning to stay ahead of tech trends.
           </p>
-          <a download="" href="" className="button button--flex download">
+          <a download="" href={Resume} className="button button--flex download">
+
             Download CV
             <svg
               className="button__icon"

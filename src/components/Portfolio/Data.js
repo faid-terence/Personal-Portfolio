@@ -9,6 +9,7 @@ import Work8 from "../../assets/smoothies.png";
 import Work9 from "../../assets/drive-clone.png";
 import ticknet from "../../assets/ticknet2.png";
 import oman from "../../assets/oman.png";
+import resume from '../../assets/myCV.pdf'
 export const projectsData = [
   {
     id: 1,
