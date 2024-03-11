@@ -9,17 +9,25 @@ import Work8 from "../../assets/smoothies.png";
 import Work9 from "../../assets/drive-clone.png";
 import ticknet from "../../assets/ticknet2.png";
 import oman from "../../assets/oman.png";
-import resume from '../../assets/myCV.pdf'
+import resume from "../../assets/myCV.pdf";
+import afriConnect from "../../assets/con.png";
 export const projectsData = [
   {
     id: 1,
+    image: afriConnect,
+    title: "AfriConnect(UI/UX)",
+    category: "Front-end",
+    link: "https://visa-4-oman-faid.vercel.app/",
+  },
+  {
+    id: 2,
     image: oman,
     title: "Visa 4 Oman Application",
     category: "Front-end",
     link: "https://visa-4-oman-faid.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     image: ticknet,
     title: "Ticknet (Under Development)",
     category: "web",
@@ -27,42 +35,42 @@ export const projectsData = [
   },
 
   {
-    id: 3,
+    id: 4,
     image: Work9,
     title: "DriveX (Google Drive clone)",
     category: "web",
     link: "https://google-drive-clone-faid.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     image: Work4,
     title: "Medicare Doctor Booking",
     category: "web",
     link: "https://bookwithfaid.netlify.app/",
   },
   {
-    id: 5,
+    id: 6,
     image: Work1,
     title: "E-commerce Web Design (UI/UX)",
     category: "design",
     link: "https://www.figma.com/file/uIqHkoLiY4wwAFojUDocwF/Ecommerce_predators?type=design&node-id=0-1&mode=design&t=irFwLCRcoqxehF5G-0  ",
   },
   {
-    id: 6,
+    id: 7,
     image: Work6,
     title: "Personal Portfolio Sample",
     category: "web",
     link: "https://faid-terence.github.io/Andela-Capstone-Project-Frontend/",
   },
   {
-    id: 7,
+    id: 8,
     image: Work5,
     title: "Learn To Code With Faid",
     category: "Web",
     link: "https://codewithfaid.netlify.app/",
   },
   {
-    id: 8,
+    id: 9,
     image: Work2,
     title: "Shop With Terence",
     category: "app",
@@ -70,14 +78,14 @@ export const projectsData = [
   },
 
   {
-    id: 9,
+    id: 10,
     image: Work8,
     title: "Terence Smoothies(Auth)",
     category: "design",
     link: "https://copper-armadillo-kilt.cyclic.app/",
   },
   {
-    id: 10,
+    id: 11,
     image: Work7,
     title: "Flix with Faid (Netflix Clone)",
     category: "design",

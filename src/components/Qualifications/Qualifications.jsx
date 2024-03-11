@@ -73,7 +73,7 @@ const Qualifications = () => {
                 <h3 className="qualification__title">Technical Team Lead</h3>
                 <span className="qualification__subtitle">ATLP- Andela</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2024 - Present
+                  <i className="uil uil-calendar-alt"></i> JAN 2024 - Present
                 </div>
               </div>
             </div>
